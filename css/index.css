@@ -1,0 +1,47 @@
+*{
+  font-family: serif;
+  margin: auto;
+}
+nav ul li {
+display: inline-block;
+}
+nav ul li a{
+  text-align:center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+
+}
+nav ul {
+  list-style-type: none;
+  float: right;
+  margin-right: 30px;
+  margin-top: 50px;
+}
+
+nav ul li a:hover{
+  color: pink;
+}
+.heading{
+  position: absolute;
+  top: 4%;
+  left: 18%;
+  transform: translate(0%,0%);
+  text-decoration: underline;
+}
+.button{
+  position: absolute;
+  top: 58%;
+  left: 45%;
+  transform: translate(0%,0%);
+  }
+.copyright
+{ position: absolute;
+  top:130%;
+  left:30%;
+  text-align:center;
+  transform: translate(0%,0%);
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
