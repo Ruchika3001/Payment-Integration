@@ -1,0 +1,70 @@
+*{
+  font-family: serif;
+}
+nav ul li {
+display: inline-block;
+}
+nav ul li a{
+  text-align:center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+
+}
+nav ul {
+  list-style-type: none;
+  float: right;
+  margin-right: 30px;
+  margin-top: 50px;
+}
+
+nav ul li a:hover{
+  color: pink;
+}
+
+.heading{
+  position: absolute;
+  top: 4%;
+  left: 18%;
+  transform: translate(0%,0%);
+  text-decoration: underline;
+}
+
+.img{
+  background-image: url('pics/about3.jpg');
+}
+
+.copyright
+{ position: absolute;
+  top:135%;
+  left:30%;
+  text-align:center;
+  transform: translate(0%,0%);
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+
+.top{
+  text-align: center;
+  text-decoration: underline;
+  padding: 4px;
+}
+.caption{
+  text-align: center;
+  padding: 3px;
+}
+.mn{
+  padding: 4px;
+  font-size: 20px;
+  border: 4px double;
+}
+.fac{
+  text-decoration:underline;
+  padding-left: 5px;
+}
+.text{
+  padding: 4px;
+  font-size: 18px;
+  border: 4px double;
+}

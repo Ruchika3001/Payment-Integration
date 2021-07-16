@@ -1,0 +1,102 @@
+*{
+  font-family: serif;
+}
+nav ul li {
+display: inline-block;
+}
+nav ul li a{
+  text-align:center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+
+}
+nav ul {
+  list-style-type: none;
+  float: right;
+  margin-right: 30px;
+  margin-top: 50px;
+}
+
+nav ul li a:hover{
+  color: pink;
+}
+
+.heading{
+  position: absolute;
+  top: 4%;
+  left: 18%;
+  transform: translate(0%,0%);
+  text-decoration: underline;
+}
+
+.oneside{
+  float: right;
+  padding-right: 150px;
+}
+.one{
+  border: 5px solid;
+  padding: 4px;
+}
+
+.twoside{
+  float: right;
+  padding-right: 100px;
+}
+.two{
+  border: 5px solid;
+  padding: 4px;
+}
+
+.threeside{
+  float: right;
+  padding-right: 100px;
+}
+.three{
+  border: 5px solid;
+  padding: 4px;
+}
+
+.fourside{
+  float: right;
+  padding-right: 100px;
+}
+.four{
+  border: 5px solid;
+  padding: 4px;
+}
+
+.fiveside{
+  float: right;
+  padding-right: 100px;
+}
+.five{
+  border: 5px solid;
+  padding: 4px;
+}
+
+.sixside{
+  float: right;
+  padding-right: 100px;
+}
+.six{
+  border: 5px solid;
+  padding: 4px;
+}
+
+.xx{
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.copyright
+{ position: absolute;
+  top:240%;
+  left:30%;
+  text-align:center;
+  transform: translate(0%,0%);
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
